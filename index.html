@@ -10,6 +10,8 @@
 
     <script src="libraries/p5.min.js"></script>
     <script src="libraries/p5.sound.min.js"></script>
+
+    <script src="./sketch.js"></script>
   </head>
 
   <body>
@@ -51,20 +53,28 @@
       <p>Вы сможете так же!</p>
     </div>
 
+    <div id="p5-container">
+      <script>new p5();</script>
+    </div>
+
+    
     <div>
       <h1> <strong>Связаться с нами</strong></h1>
       <div>
         <div>
           <p>Ваше имя</p>
           <input
-          placeholder="имя">
+          placeholder="имя"
+          >
           <p>Imail</p>
           <input
-          placeholder="Imail">
+          placeholder="Imail"
+          >
           <p>Сообщение</p>
           <input
           placeholder="Введите сообщение"
-          maxlength="100">
+          maxlength="100"
+          >
           <button>Отправить</button>
         </div>
         </div>
