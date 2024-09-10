@@ -45,7 +45,6 @@ function drawScene3() {
     fill(c);
     beginShape();
     for (let angle = 0; angle < 2 * PI; angle += PI / 20) {
-        // Масштабируем радиус относительно размера холста
         let r = map(noise(t + angle * 100), 0, 1, 0 * i / totalShapes, 50 * i / totalShapes);
         let x = cos(angle) * r + width / 2 + offsetX;
         let y = sin(angle) * r + height / 2 + offsetY;

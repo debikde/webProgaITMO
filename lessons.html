@@ -24,22 +24,28 @@
     </header>
 
     <main>
-        <div>
-            <select>
-                <option value="" disabled selected>Уровень</option>
-                <option value="Базовый">Базовый</option>
-                <option value="Продвинутый">Продвинутый</option>
-                <option value="Профессиональный">Профессиональный</option>
+        <section>
+            <input type="search" id="search" name="search" placeholder="Поиск">
+        
+            <select id="level" name="level">
+              <option value="" disabled selected>Уровень</option>
+              <option value="Базовый">Базовый</option>
+              <option value="Продвинутый">Продвинутый</option>
+              <option value="Профессиональный">Профессиональный</option>
             </select>
-            <select>
-            <option value="" disabled selected>Направление</option>
-            <option value="Люди">Люди</option>
-            <option value="Построение">Построение</option>
-            <option value="Перспектива">Перспектива</option>
-            </select>
-        </div>
 
-    <div>
+           
+            <select id="direction" name="direction">
+              <option value="" disabled selected>Направление</option>
+              <option value="Люди">Люди</option>
+              <option value="Построение">Построение</option>
+              <option value="Перспектива">Перспектива</option>
+            </select>
+
+    
+        </section>
+
+    <section>
         <table>
             <tbody>
                 <tr>
@@ -48,8 +54,7 @@
                         <div>
                         <a href="./lesson1.html"><h2>Введение в анатомию</h2></a>
                         <div>
-                            <p>Урок</p> 
-                            <span>1</span>
+                            <p>Урок 1</p> 
                         </div>
                         <span>
                             <p>Базовый | Люди</p>
@@ -66,8 +71,7 @@
                         <div>
                         <h2>Перспектива и построение</h2>
                         <div>
-                            <p>Урок</p>
-                            <span>2</span>
+                            <p>Урок 2</p>
                         </div>
                         <span>
                             <p>Базовый | Люди</p>
@@ -84,8 +88,7 @@
                         <div>
                         <h2>Перспектива и построение</h2>
                         <div>
-                            <p>Урок</p>
-                            <span>3</span>
+                            <p>Урок 3</p>
                         </div>
                         <span>
                             <p>Базовый | Люди</p>
@@ -101,7 +104,7 @@
             
         </table>
        
-    </div>     
+    </section>
     </main>
 
     <footer>

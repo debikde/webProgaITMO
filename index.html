@@ -6,6 +6,7 @@
 
     <title>Уроки рисования</title>
 
+
     <link rel="stylesheet" type="text/css" href="style.css">
 
     <script src="libraries/p5.min.js"></script>
@@ -26,17 +27,21 @@
 
     <main>
       <div>
-    <div>
+    <section>
      <h1> <strong>Уроки искусства</strong> </h1>
-     <h3 >Лучшие уроки рисования  для вас. 
+      <div id="p5-container">
+        <script>new p5();</script>
+      </div>
+
+      <h3 >Лучшие уроки рисования  для вас.
       мы собрали  все уроки в одном 
       месте, смотрите не обляпайтесь. 
     </h3>
       <button onclick="document.location='lessons.html'"> <strong>Все уроки</strong></button>
   
-    </div>
+    </section>
 
-    <div>
+    <section>
       <h1><strong> Работы наших студентов </strong></h1>
       <ul>
         <li>Вы быстро научитесь основам</li>
@@ -51,14 +56,9 @@
         <img src="./static/images/img_20230521_104528.png" style="width: 100px; height:100px"/>
       </div>
       <p>Вы сможете так же!</p>
-    </div>
-
-    <div id="p5-container">
-      <script>new p5();</script>
-    </div>
-
+    </section>
     
-    <div>
+    <section>
       <h1> <strong>Связаться с нами</strong></h1>
       <div>
         <div>
@@ -67,18 +67,21 @@
           placeholder="имя"
           >
           <p>Imail</p>
+            <input
+               placeholder="Imail"
+            >
           <input
           placeholder="Imail"
           >
           <p>Сообщение</p>
           <input
-          placeholder="Введите сообщение"
-          maxlength="100"
+            placeholder="Введите сообщение"
+            maxlength="100"
           >
           <button>Отправить</button>
         </div>
         </div>
-      </div>
+      </section>
     </div>
     </main>
 
